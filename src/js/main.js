@@ -14,7 +14,7 @@ var configFunction = function($state, $router) {
   });
 
   $state.state("candidates", {
-    url: "/candidates/{candidateName}",
+    url: "/candidates/{name}",
     template: require("./_candidateView.html"),
     controller: require("./candidateController")
   });

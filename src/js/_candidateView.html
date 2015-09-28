@@ -1,1 +1,11 @@
 This is the candidate view
+
+<div ng-if="selected">
+  {{selected.name}} - {{selected.profession}}, {{selected.age}}
+</div>
+
+<ul class="candidate-list">
+  <li ng-repeat="candidate in candidates">
+    <a ui-sref="candidates({name: candidate.href})">{{candidate.name}}</a>
+  </li>
+</ul>
