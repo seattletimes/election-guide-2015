@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <%= t.include("partials/_head.html") %>
+  </head>
+  <body ng-app="election-guide">
+
+    <main class="">
+      <nav class="sections">
+        <ul>
+          <li> <a ui-sref="intro">About</a>
+          <li> <a ui-sref="candidates">Candidates</a>
+          <li> <a ui-sref="measures">Ballot Measures</a>
+          <li> <a ui-sref="issues">On the issues</a>
+        </ul>
+      </nav>
+      <section ui-view></section>
+    </main>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

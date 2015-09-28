@@ -1,0 +1,21 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "gregarious-cudweed"
+    },
+    "live": {
+      "bucket": "",
+      "path": ""
+    }
+  },
+  "title": "",
+  "description": "",
+  "url": "",
+  "slug": "",
+  "tags": [],
+  "image": "",
+  "sheets": ["1tOwBkicYSeRw-9_CyqEALNmIZ0UbUeFHfDE-cofg7p0"],
+  "production": false,
+  "embedded": false
+}
