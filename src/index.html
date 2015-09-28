@@ -13,6 +13,7 @@
       <nav class="sections">
         <ul>
           <li> <a ui-sref="intro">About</a>
+          <li> <a ui-sref="locality">By Location</a>
           <li> <a ui-sref="candidates">Candidates</a>
           <li> <a ui-sref="measures">Ballot Measures</a>
           <li> <a ui-sref="issues">On the issues</a>
@@ -20,6 +21,25 @@
       </nav>
       <section ui-view></section>
     </main>
+
+    <script>
+<%
+var candidates = [];
+["bellevue", "king", "port", "schoolBoard", "seattle"].forEach(function(race) {
+  var sheet = json["ElectionGuide2015_" + race];
+  sheet.forEach(function(candidate) {
+    candidate.category = race;
+  });
+  candidates.push.apply(candidates, sheet);
+});
+var clientData = {
+  candidates: candidates,
+  measures: json.ElectionGuide2015_measures,
+  strings: json.ElectionGuide2015_strings
+};
+%>
+window.guideData = <%= JSON.stringify(clientData) %>;
+    </script>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>

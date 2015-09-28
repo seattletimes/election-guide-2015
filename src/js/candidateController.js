@@ -1,9 +1,9 @@
-var candidateController = function($scope) {
+var candidateController = function($scope, $state) {
 
-  $scope.test = "hello world";
+  console.log($scope, $state.params);
 
 };
 
-candidateController.$inject = ["$scope"];
+candidateController.$inject = ["$scope", "$state"];
 
 module.exports = candidateController;
