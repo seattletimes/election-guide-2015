@@ -31,8 +31,6 @@ var questions = {
   schoolboard: []
 };
 
-console.log(data.strings);
-
 for (var key in questions) {
   questions[key] = questions[key].map(k => ({ q: k, label: data.strings[k].question }));
 }

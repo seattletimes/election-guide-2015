@@ -1,1 +1,24 @@
-Locality!
+<section class="locale-view">
+  <h1>Candidates by Race</h1>
+
+  <nav class="select-locale">
+    <a
+      ng-repeat="l in locations"
+      ng-class="{ selected: l.data == locale }"
+      ui-sref="locality({ locale: l.data })"
+    >{{l.label}}</a>
+  </nav>
+
+  <div class="race-card" ng-repeat="race in races">
+    <h2>{{race.position}}</h2>
+    <div class="candidate-pair">
+      <div class="candidate" ng-repeat="candidate in race.candidates">
+        <a ui-sref="candidates({ name: candidate.href })">{{candidate.name}}</a>
+        <div class="info-block">
+          {{candidate.profession}}, {{candidate.age}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>

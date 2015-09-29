@@ -32,7 +32,7 @@ var configFunction = function($state, $router) {
   });
 
   $state.state("locality", {
-    url: "/locality",
+    url: "/locality/{locale}",
     template: require("./_localityView.html"),
     controller: require("./localityController")
   });

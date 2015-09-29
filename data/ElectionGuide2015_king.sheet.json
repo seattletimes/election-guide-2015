@@ -2,7 +2,8 @@
   {
     "title": "Jane Hague",
     "name": "Jane Hague",
-    "district": 6,
+    "img": "hague.jpg",
+    "position": 6,
     "kingboundary": "Supports using existing criteria to amend Urban Growth Area boundary line including expansion of the growth boundary line if accompanied by the equivalent of four times the land being placed into permanent open space.",
     "kinghousing": "Utilize state bonding options that allow financing now with future tourism taxes. Redevelop Park and Rides to add affordable housing and give first priority to housing for surplus county land.",
     "kingtransit": "Could Support Sound Transit 3 if it's cost effective and gets traffic moving. Would like to see better coordination between transit agencies to create an integrated system.",
@@ -20,7 +21,8 @@
   {
     "title": "Claudia Balducci",
     "name": "Claudia Balducci",
-    "district": 6,
+    "img": "ClaudiaBalducci.jpg",
+    "position": 6,
     "kingboundary": "Supports targeting growth to urban centers. Opposes making changes to maximize developer profits,",
     "kinghousing": "Supports zoning and tax incentives for developers to build affordable housing. Leverage public dollars to fund land purchases near transit. Use a wide range of approaches to create affordable housing.",
     "kingtransit": "Supports a ST3 package that creates more frequent and reliable connections on the Eastside. Add high capacity transit to connect Kirkland and other Eastside destinations. Add parking, bus and walking connections to maximize access to the system.",
@@ -38,7 +40,8 @@
   {
     "title": "Jeanne Kohl-Welles",
     "name": "Jeanne Kohl-Welles",
-    "district": 4,
+    "img": "Kohl_Welles.jpg",
+    "position": 4,
     "kingboundary": "Very difficult to imagine supporting any adjustments to the urban growth boundary line.",
     "kinghousing": "I would likely be able to support an affordable housing levy as the costs of housing and rent are skyrocketing in Seattle as well as the Eastside.",
     "kingtransit": "I absolutely support a Sound Transit 3 ballot measure, especially expanding light rail including to Ballard and West Seattle.",
@@ -56,7 +59,8 @@
   {
     "title": "Rufus Orr",
     "name": "Rufus Orr",
-    "district": 4,
+    "img": "",
+    "position": 4,
     "kingboundary": "No response.",
     "kinghousing": "",
     "kingtransit": "",
