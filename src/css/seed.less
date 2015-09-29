@@ -6,3 +6,34 @@
 }
 
 @import "seattletimes";
+@import "flexbox";
+@import "candidates";
+
+nav.sections {
+  display: block;
+  background: @df-blue;
+  color: white;
+  font-family: @df-sans;
+  font-size: 15px;
+
+  a {
+    color: white;
+    cursor: pointer;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    padding: 4px 8px;
+    position: relative;
+
+    &:hover {
+      background: @df-dark-gray;
+    }
+  }
+}

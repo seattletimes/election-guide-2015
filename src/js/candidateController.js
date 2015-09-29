@@ -1,18 +1,15 @@
-var candidateMap = window.guideData.candidates.reduce(function(map, item) {
-  var last = item.name.split(" ").pop();
-  item.href = last;
-  map[last] = item;
-  return map;
-}, {});
+var data = require("./guideData");
 
 var candidateController = function($scope, $state) {
 
-  $scope.candidates = window.guideData.candidates;
+  $scope.candidates = data.candidates.all;
+  $scope.questions = data.questions;
+
+  console.log($scope.questions);
 
   var nameParam = $state.params.name;
   if (nameParam) {
-    console.log(nameParam, candidateMap[nameParam])
-    $scope.selected = candidateMap[nameParam];
+    $scope.selected = data.candidates.lookup[nameParam];
   }
 
 };

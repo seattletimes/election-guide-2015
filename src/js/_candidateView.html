@@ -1,11 +1,28 @@
-This is the candidate view
+<div class="candidate-frame">
+  <label>
+    Select a candidate
+  </label>
+  <select ng-model="selected" ng-options="candidate.name for candidate in candidates">
+  </select>
+  <div class="candidate-selected" ng-if="selected">
+    <h1>{{selected.name}}</h1>
 
-<div ng-if="selected">
-  {{selected.name}} - {{selected.profession}}, {{selected.age}}
+    <ul class="stats">
+      <li> <b>Age:</b> {{selected.age}}
+      <li> <b>Profession:</b> {{selected.profession}}
+      <li> <b>Lived here:</b> {{selected.duration}}
+      <li> <b>Education:</b> {{selected.education}}
+      <li> <b>Residence:</b> {{selected.home || selected.residence}}
+      <li> <b>Pets:</b> {{selected.pets}}
+      <li> <b>Family:</b> {{selected.family}}
+      <li> <b>How they get to work:</b> {{selected.commute}}
+      <li> <b>Favorite spot:</b> {{selected.favoritespot}}
+    </ul>
+
+    <h2>Questions</h2>
+
+    <ul>
+      <li ng-repeat="question in questions[selected.category]"> <b>{{question.label}}</b> {{selected[question.q]}}
+    </ul>
+  </div>
 </div>
-
-<ul class="candidate-list">
-  <li ng-repeat="candidate in candidates">
-    <a ui-sref="candidates({name: candidate.href})">{{candidate.name}}</a>
-  </li>
-</ul>

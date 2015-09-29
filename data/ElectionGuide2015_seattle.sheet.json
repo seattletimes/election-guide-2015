@@ -16,8 +16,8 @@
     "education": "Syracuse University, 1984-1989",
     "pets": "1 cat",
     "heroes": "Margaret Mead",
-    "howyougettowork": "Daily bus commuter",
-    "favoritespotinseattleoutsidehome": "Lincoln Park"
+    "commute": "Daily bus commuter",
+    "favoritespot": "Lincoln Park"
   },
   {
     "title": 1,
@@ -36,8 +36,8 @@
     "education": "Masters in Public Administration from the UW Evans School, BA from Western Washington University",
     "pets": "Beta fish ",
     "heroes": "Ann Richards",
-    "howyougettowork": "Bus, carpool and occasionally drive by myself",
-    "favoritespotinseattleoutsidehome": "Lincoln Park"
+    "commute": "Bus, carpool and occasionally drive by myself",
+    "favoritespot": "Lincoln Park"
   },
   {
     "title": 2,
@@ -56,8 +56,8 @@
     "education": "1994, Master of Arts, Organizational Design and Improvement, Seattle City Univ.\n1984, Juris Doctorate, University of Washington, School of Law\n1981, Bachelor of Arts, Political Science, University of Washington",
     "pets": "No pets",
     "heroes": "Martin Luther King, Jr.  ",
-    "howyougettowork": "I drive a fuel efficient Toyota Prius when I drive and I am a frequent user of transit and light rail. ",
-    "favoritespotinseattleoutsidehome": "Seward Park walking trail"
+    "commute": "I drive a fuel efficient Toyota Prius when I drive and I am a frequent user of transit and light rail. ",
+    "favoritespot": "Seward Park walking trail"
   },
   {
     "title": 2,
@@ -76,8 +76,8 @@
     "education": "",
     "pets": "",
     "heroes": "",
-    "howyougettowork": "",
-    "favoritespotinseattleoutsidehome": ""
+    "commute": "",
+    "favoritespot": ""
   },
   {
     "title": 3,
@@ -96,8 +96,8 @@
     "education": "",
     "pets": "",
     "heroes": "",
-    "howyougettowork": "",
-    "favoritespotinseattleoutsidehome": ""
+    "commute": "",
+    "favoritespot": ""
   },
   {
     "title": 3,
@@ -116,8 +116,8 @@
     "education": "",
     "pets": "",
     "heroes": "",
-    "howyougettowork": "",
-    "favoritespotinseattleoutsidehome": ""
+    "commute": "",
+    "favoritespot": ""
   },
   {
     "title": 4,
@@ -136,8 +136,8 @@
     "education": "BA (Political Science) from Willamette and MA (Urban Planning) from UCLA",
     "pets": "None",
     "heroes": "Former State Rep. Ruth Fisher from Tacoma",
-    "howyougettowork": "Transit, Route 71/76/316",
-    "favoritespotinseattleoutsidehome": "Magnuson Park"
+    "commute": "Transit, Route 71/76/316",
+    "favoritespot": "Magnuson Park"
   },
   {
     "title": 4,
@@ -156,8 +156,8 @@
     "education": "Everett Community College",
     "pets": "Two cats",
     "heroes": "Harry Truman",
-    "howyougettowork": "Bike",
-    "favoritespotinseattleoutsidehome": "On the sidelines of my daughter’s soccer matches, or behind the plate umping a little league game with Northeast Seattle Little League"
+    "commute": "Bike",
+    "favoritespot": "On the sidelines of my daughter’s soccer matches, or behind the plate umping a little league game with Northeast Seattle Little League"
   },
   {
     "title": 5,
@@ -176,8 +176,8 @@
     "education": "",
     "pets": "",
     "heroes": "",
-    "howyougettowork": "",
-    "favoritespotinseattleoutsidehome": ""
+    "commute": "",
+    "favoritespot": ""
   },
   {
     "title": 5,
@@ -196,8 +196,8 @@
     "education": "Univ. Washington (BA History)\r\n\t\t\t\t\t\tGarrett Theol Sem (MDiv)\r\n\t\t\t\t\t\tPrinceton Theol Sem (D.Min. Gender)\r\n",
     "pets": "Three cats, 1 hamster",
     "heroes": "Nelson Mandela",
-    "howyougettowork": "Bus",
-    "favoritespotinseattleoutsidehome": "Carkeek Park Beach"
+    "commute": "Bus",
+    "favoritespot": "Carkeek Park Beach"
   },
   {
     "title": 6,
@@ -216,8 +216,8 @@
     "education": "",
     "pets": "",
     "heroes": "",
-    "howyougettowork": "",
-    "favoritespotinseattleoutsidehome": ""
+    "commute": "",
+    "favoritespot": ""
   },
   {
     "title": 6,
@@ -236,8 +236,8 @@
     "education": "BS Engineering degree from UW",
     "pets": "Belle, Blaze, & Bunny  Parrot: Bosun and foster dogs whenever possible (11 in the past 5 years)",
     "heroes": "Adrienne Rich",
-    "howyougettowork": "Campaign headquarters are in my home - walk and drive otherwise",
-    "favoritespotinseattleoutsidehome": "Depends on what I want to do"
+    "commute": "Campaign headquarters are in my home - walk and drive otherwise",
+    "favoritespot": "Depends on what I want to do"
   },
   {
     "title": 7,
@@ -256,8 +256,8 @@
     "education": "Undergraduate, Stanford University; Law School, University of Idaho",
     "pets": "None now.  Previously golden retrievers, cats, more.",
     "heroes": "Norm Maleng and Mother Teresa",
-    "howyougettowork": "walk, ride my bike",
-    "favoritespotinseattleoutsidehome": "Pike Place Market"
+    "commute": "walk, ride my bike",
+    "favoritespot": "Pike Place Market"
   },
   {
     "title": 7,
@@ -276,8 +276,8 @@
     "education": "",
     "pets": "",
     "heroes": "",
-    "howyougettowork": "",
-    "favoritespotinseattleoutsidehome": ""
+    "commute": "",
+    "favoritespot": ""
   },
   {
     "title": 8,
@@ -296,8 +296,8 @@
     "education": "Lincoln High School, University of Washington",
     "pets": "Nope.",
     "heroes": "Vaclav Havel, president of the Czech Republic, leader of the Velvet\r\nRevolution",
-    "howyougettowork": "My Blue Vespa Scooter, Metro Route #3 or #4 or drive my Prius",
-    "favoritespotinseattleoutsidehome": "Walking the Queen Anne Boulevard loop"
+    "commute": "My Blue Vespa Scooter, Metro Route #3 or #4 or drive my Prius",
+    "favoritespot": "Walking the Queen Anne Boulevard loop"
   },
   {
     "title": 8,
@@ -316,8 +316,8 @@
     "education": "",
     "pets": "",
     "heroes": "",
-    "howyougettowork": "",
-    "favoritespotinseattleoutsidehome": ""
+    "commute": "",
+    "favoritespot": ""
   },
   {
     "title": 9,
@@ -336,8 +336,8 @@
     "education": "Yakima Valley Community College (AA), Washington State University (BA) and Seattle University (JD)",
     "pets": "Hugo, 8 year-old pug",
     "heroes": "Cesar Chavez/Dolores Huerta, Founders of United Farmworkers ",
-    "howyougettowork": "Before the campaign, I carpooled or used the West Seattle Water Taxi or Rapid Bus C line from West Seattle to Downtown. Sadly, the demands of the campaign trail have kept me tied to a car of late but I've recently purchased a bike and I love it!",
-    "favoritespotinseattleoutsidehome": "Lincoln Park"
+    "commute": "Before the campaign, I carpooled or used the West Seattle Water Taxi or Rapid Bus C line from West Seattle to Downtown. Sadly, the demands of the campaign trail have kept me tied to a car of late but I've recently purchased a bike and I love it!",
+    "favoritespot": "Lincoln Park"
   },
   {
     "title": 9,
@@ -356,7 +356,7 @@
     "education": "B.S. Computer Science, University of Illinois, 1980",
     "pets": "Hamster",
     "heroes": "Bernie Sanders",
-    "howyougettowork": "Walk, Bike, Bus, Car (varies)",
-    "favoritespotinseattleoutsidehome": "Leschi Beach "
+    "commute": "Walk, Bike, Bus, Car (varies)",
+    "favoritespot": "Leschi Beach "
   }
 ]
