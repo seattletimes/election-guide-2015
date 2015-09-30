@@ -14,9 +14,11 @@
     <div class="candidate-pair">
       <div class="candidate" ng-repeat="candidate in race.candidates">
         <a ui-sref="candidates({ name: candidate.href })">{{candidate.name}}</a>
-        <div class="info-block">
-          {{candidate.profession}}, {{candidate.age}}
-        </div>
+        <ul class="info-block">
+          <li> Profession: {{candidate.profession}}
+          <li> Age: {{candidate.age}}
+        </ul>
+        <a class="read-more" ui-sref="candidates({ name: candidate.href })">Read more</a>
       </div>
     </div>
   </div>
