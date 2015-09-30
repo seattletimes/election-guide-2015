@@ -1,1 +1,18 @@
-Ballot measures!
+<div class="measure-view">
+  <h1>Ballot Measures</h1>
+  <div class="measure-info card" ng-repeat="item in measures">
+    <h2>{{item.measure}}</h2>
+    <p class="summary">
+      {{item.summary}}
+    </p>
+
+    <p class="cost">
+      <b>Cost:</b> {{item.cost}}
+    </p>
+    <div class="sides">
+      <div class="favoring"> <b>In favor:</b> {{item.favoring}} </div>
+      <div class="opposing"> <b>Opposed:</b> {{item.opposing}} </div>
+    </div>
+    </ul>
+  </div>
+</div>

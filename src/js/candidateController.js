@@ -8,6 +8,8 @@ var candidateController = function($scope, $state, $location) {
   var nameParam = $state.params.name;
   if (nameParam) {
     $scope.selected = data.candidates.lookup[nameParam];
+  } else {
+    $scope.selected = data.candidates.all[0];
   }
 
   $scope.$watch("selected", function() {

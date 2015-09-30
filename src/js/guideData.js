@@ -41,7 +41,8 @@ var guide = {
     lookup: candidateMap
   },
   races,
-  questions
+  questions,
+  measures: data.measures
 };
 
 module.exports = guide;

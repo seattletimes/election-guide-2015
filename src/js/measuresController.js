@@ -1,8 +1,8 @@
+var data = require("./guideData");
+
 var measuresController = function($scope, $state) {
 
-  $scope.test = "hello world";
-
-  console.log($state);
+  $scope.measures = data.measures;
 
 };
 

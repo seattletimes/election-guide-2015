@@ -1,4 +1,4 @@
-<div class="candidate-frame">
+<div class="candidate-view">
   <label>
     Select a candidate
   </label>
@@ -7,7 +7,7 @@
   <div class="candidate-selected" ng-if="selected">
     <h1>{{selected.name}}</h1>
 
-    <img ng-src="./assets/mugs/{{selected.img}}">
+    <img class="mugshot" ng-src="./assets/mugs/{{selected.img}}">
 
     <ul class="stats">
       <li> <b>Age:</b> {{selected.age}}
@@ -21,10 +21,12 @@
       <li> <b>Favorite spot:</b> {{selected.favoritespot}}
     </ul>
 
-    <h2>Questions</h2>
+    <h2>We asked:</h2>
 
-    <ul>
-      <li ng-repeat="question in questions[selected.category]"> <b>{{question.label}}</b> {{selected[question.q]}}
+    <ul class="q-and-a">
+      <li ng-repeat="question in questions[selected.category]"> 
+        <div class="question">Q. {{question.label}}</div> 
+        <div class="answer">A. {{selected[question.q]}} </div>
     </ul>
   </div>
 </div>
