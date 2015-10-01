@@ -15,12 +15,19 @@ data.candidates.sort(function(a, b) {
 
 var races = data.candidates.reduce(function(map, item) {
   var location = item.category;
-  var race = item.position || item.district;
+  var race = item.position;
   if (!map[location]) map[location] = {};
   if (!map[location][race]) map[location][race] = [];
   map[location][race].push(item);
   return map;
 }, {});
+
+var getTitle = require("./getTitle");
+
+data.candidates.forEach(function(c) {
+  c.raceName = getTitle(c.category, c.position);
+  c.opponents = races[c.category][c.position].filter(x => x != c);
+});
 
 var questions = {
   seattle: ["seahousing", "seamovement", "seasafety", "seatents", "seadrilling"],
