@@ -30,17 +30,21 @@ data.candidates.forEach(function(c) {
 });
 
 var questions = {
-  seattle: ["seahousing", "seamovement", "seasafety", "seatents", "seadrilling"],
-  bellevue: ["barch", "btransit", "bgrowth"],
-  king: ["kingboundary", "kinghousing", "kingtransit"],
-  snohomish: ["snocourthouse", "snofinances", "snotransit"],
-  port: ["portcargo", "portwaterfront", "porttraffic", "portlease"],
+  seattle: ["sea_housing", "sea_movement", "sea_safety", "sea_tents", "sea_drilling"],
+  bellevue: ["b_arch", "b_transit", "b_growth"],
+  king: ["king_boundary", "king_housing", "king_transit"],
+  snohomish: ["sno_courthouse", "sno_finances", "sno_transit"],
+  port: ["port_cargo", "port_waterfront", "port_traffic", "port_lease"],
   schoolboard: []
 };
+
+try {
 
 for (var key in questions) {
   questions[key] = questions[key].map(k => ({ q: k, label: data.strings[k].question }));
 }
+
+} catch (e) { console.log(e); }
 
 var guide = {
   candidates: {

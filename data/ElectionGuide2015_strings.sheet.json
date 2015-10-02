@@ -1,56 +1,56 @@
 {
-  "seahousing": {
+  "sea_housing": {
     "question": "If you could add, remove or change one strategy in the plan recommended by Mayor Ed Murray’s Housing Affordability and Livability Advisory Committee, what would it be, and why?"
   },
-  "seamovement": {
+  "sea_movement": {
     "question": "What’s currently the largest impediment to making Seattle an easier city in which to move around?"
   },
-  "seasafety": {
+  "sea_safety": {
     "question": "What’s the first thing you would do, if you could, to improve public safety in downtown Seattle, and why? Or is there another area with a problem you would deal with first?"
   },
-  "seatents": {
+  "sea_tents": {
     "question": "Should city-sanctioned homeless tent encampments be barred from residential areas? Why or why not?"
   },
-  "seadrilling": {
+  "sea_drilling": {
     "question": "Should city officials be involved in deciding whether the Port of Seattle hosts Arctic drilling vessels, and why?"
   },
-  "barch": {
+  "b_arch": {
     "question": "Bellevue's contribution to ARCH (A Regional Coalition for Housing) has stayed at $824,000 the past eight years. Should it be increased?"
   },
-  "btransit": {
+  "b_transit": {
     "question": "Do you support a Sound Transit 3 ballot measure?"
   },
-  "bgrowth": {
+  "b_growth": {
     "question": "What are your three top ideas to manage Bellevue's coming growth?"
   },
-  "kingboundary": {
+  "king_boundary": {
     "question": "Are there any circumstances in which you would support adjustments to the county urban browth boundary line?"
   },
-  "kinghousing": {
+  "king_housing": {
     "question": "Given the skyrocketing cost of housing and rent, should the County Council support an affordable housing levy?"
   },
-  "kingtransit": {
+  "king_transit": {
     "question": "Do you support a Sound Transit 3 ballot measure and what must it include?"
   },
-  "snocourthouse": {
+  "sno_courthouse": {
     "question": "Given the rising cost estimates, what should happen with the new County courthouse project?"
   },
-  "snofinances": {
+  "sno_finances": {
     "question": "What are the top strategies for shoring up the county's finances and reserves?"
   },
-  "snotransit": {
+  "sno_transit": {
     "question": "What must a Sound Transit 3 package include for Snohomish County?"
   },
-  "portcargo": {
+  "port_cargo": {
     "question": "What’s the first thing you would do to improve the competitiveness of the Port’s marine cargo operations, and why?"
   },
-  "portwaterfront": {
+  "port_waterfront": {
     "question": "If you could do anything along the Port of Seattle waterfront, what would it be?"
   },
-  "porttraffic": {
+  "port_traffic": {
     "question": "How should the port address the growing passenger traffic at SeaTac?"
   },
-  "portlease": {
+  "port_lease": {
     "question": "What is your position on the Port lease with Foss Maritime for Terminal 5 and the Shell oil rigs?"
   }
 }

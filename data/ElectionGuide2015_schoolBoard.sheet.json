@@ -1,38 +1,22 @@
 [
   {
-    "title": 3,
     "position": 3,
     "name": "Lauren McGuire",
-    "img": "Lauren_McGuire.jpg",
-    "issue1": "",
-    "issue2": "",
-    "issue3": ""
+    "img": "Lauren_McGuire.jpg"
   },
   {
-    "title": 3,
     "position": 3,
     "name": "Jill Geary",
-    "img": "Jill_Geary.jpg",
-    "issue1": "",
-    "issue2": "",
-    "issue3": ""
+    "img": "Jill_Geary.jpg"
   },
   {
-    "title": 6,
     "position": 6,
     "name": "Leslie Harris",
-    "img": "Leslie_Harris.jpg",
-    "issue1": "",
-    "issue2": "",
-    "issue3": ""
+    "img": "Leslie_Harris.jpg"
   },
   {
-    "title": 6,
     "position": 6,
     "name": "Marty McLaren",
-    "img": "Marty_McLaren.jpg",
-    "issue1": "",
-    "issue2": "",
-    "issue3": ""
+    "img": "Marty_McLaren.jpg"
   }
 ]

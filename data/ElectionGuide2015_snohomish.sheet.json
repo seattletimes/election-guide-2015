@@ -1,12 +1,11 @@
 [
   {
-    "title": "John Lovick",
     "name": "John Lovick",
     "position": "executive",
     "img": "JohnLovick.jpg",
-    "snocourthouse": "Suspend the current plan for a replacement courthouse, use a portion of the $75 million bonds to keep current courthouse on \"life support,\" and reduce property taxes in 2016 since there won't be a second phase of bonds issued.",
-    "snofinances": "Return a portion of courthouse bonds to taxpayers and use some to build up finances and reserves, Find higher paying customers for surplus jail beds. Prioritize public safety and other critical services in 2016 budget.",
-    "snotransit": "Complete Sound Transit to Lynnwood and Everett including service to Paine Field.",
+    "sno_courthouse": "Suspend the current plan for a replacement courthouse, use a portion of the $75 million bonds to keep current courthouse on \"life support,\" and reduce property taxes in 2016 since there won't be a second phase of bonds issued.",
+    "sno_finances": "Return a portion of courthouse bonds to taxpayers and use some to build up finances and reserves, Find higher paying customers for surplus jail beds. Prioritize public safety and other critical services in 2016 budget.",
+    "sno_transit": "Complete Sound Transit to Lynnwood and Everett including service to Paine Field.",
     "age": 64,
     "profession": "Retired state patrol sargeant, former County Sheriff, former state legislator and former Coast Guardsman.",
     "residence": "Mill Creek",
@@ -16,16 +15,15 @@
     "pets": "Cockapoo named MiMi",
     "heroes": "One of the most courageous persons in the civil rights movement, Georgia Congressman John Lewis.",
     "commute": "I drive my 2011 Chevrolet Equinox",
-    "favoritespot": "Mill Creek Town Center"
+    "favorite_spot": "Mill Creek Town Center"
   },
   {
-    "title": "Dave Somers",
     "name": "Dave Somers",
     "position": "executive",
     "img": "Dave-somers.jpg",
-    "snocourthouse": "Put project on hold, get estimates for remodel of existing courthouse with new addition for criminal courts.",
-    "snofinances": "Control salary and benefit costs in line with revenue. Lease beds in jail and control jail overtime costs.",
-    "snotransit": "ST3 needs to serve Paine Field/Boeing, the Everett Transit Center and Everett Community College.",
+    "sno_courthouse": "Put project on hold, get estimates for remodel of existing courthouse with new addition for criminal courts.",
+    "sno_finances": "Control salary and benefit costs in line with revenue. Lease beds in jail and control jail overtime costs.",
+    "sno_transit": "ST3 needs to serve Paine Field/Boeing, the Everett Transit Center and Everett Community College.",
     "age": 62,
     "profession": "Fisheries biologist",
     "residence": "Outside Monroe",
@@ -35,6 +33,6 @@
     "pets": "Three doggies, two horses and assorted varmits",
     "heroes": "Still waiting",
     "commute": "2001 VW Golf diesel with 300,000 miles",
-    "favoritespot": "Upper Skykomish River on a clear, fall day."
+    "favorite_spot": "Upper Skykomish River on a clear, fall day."
   }
 ]
