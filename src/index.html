@@ -9,7 +9,9 @@
   </head>
   <body ng-app="election-guide">
 
-    <main class="">
+    <%= t.include("partials/_nav.html") %>
+    <%= t.include("partials/_ad.html", { type: "banner" }) %>
+    <main class="page">
       <nav class="sections">
         <ul>
           <li> <a ui-sref="intro">About</a>
@@ -21,6 +23,7 @@
       </nav>
       <section class="view-pane" ui-view></section>
     </main>
+    <%= t.include("partials/_navBottom.html") %>
 
     <script>
 <%

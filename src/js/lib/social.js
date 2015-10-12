@@ -47,5 +47,13 @@ module.exports = {
   Share,
   makeShare,
   utm,
-  buttons: [top, bottom]
-}
+  buttons: [top, bottom],
+  updateURL: function(share, url) {
+    share.config.networks.google_plus.url = addQuery(url, utm("google+"));
+    share.config.networks.twitter.url = addQuery(url, utm("twitter"));
+    share.config.networks.facebook.url = addQuery(url, utm("facebook"));
+    share.config.networks.pinterest.url = addQuery(url, utm("pinterest"));
+    var email = share.config.networks.email.description;
+    share.config.networks.email.description = email.replace(/http[^\s]+/, addQuery(url, utm("email_share", "email")));
+  }
+};
