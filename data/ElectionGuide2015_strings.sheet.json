@@ -1,6 +1,6 @@
 {
   "sea_housing": {
-    "question": "If you could add, remove or change one strategy in the plan recommended by Mayor Ed Murray’s Housing Affordability and Livability Advisory Committee, what would it be, and why?"
+    "question": "If you could add, remove or change one strategy in the plan recommended by Mayor Ed Murray’s Housing Affordability and Livability Agenda Committee, what would it be, and why?"
   },
   "sea_movement": {
     "question": "What’s currently the largest impediment to making Seattle an easier city in which to move around?"
@@ -24,16 +24,16 @@
     "question": "What are your three top ideas to manage Bellevue's coming growth?"
   },
   "king_boundary": {
-    "question": "Are there any circumstances in which you would support adjustments to the county urban browth boundary line?"
+    "question": "Are there any circumstances in which you would support adjustments to the county urban growth boundary line?"
   },
   "king_housing": {
-    "question": "Given the skyrocketing cost of housing and rent, should the County Council support an affordable housing levy?"
+    "question": "Given the skyrocketing costs of housing and rent, should the County Council support an affordable-housing levy?"
   },
   "king_transit": {
     "question": "Do you support a Sound Transit 3 ballot measure and what must it include?"
   },
   "sno_courthouse": {
-    "question": "Given the rising cost estimates, what should happen with the new County courthouse project?"
+    "question": "Given the rising cost estimates, what should happen with the new county courthouse project?"
   },
   "sno_finances": {
     "question": "What are the top strategies for shoring up the county's finances and reserves?"
@@ -48,7 +48,7 @@
     "question": "If you could do anything along the Port of Seattle waterfront, what would it be?"
   },
   "port_traffic": {
-    "question": "How should the port address the growing passenger traffic at SeaTac?"
+    "question": "How should the Port address the growing passenger traffic at SeaTac?"
   },
   "port_lease": {
     "question": "What is your position on the Port lease with Foss Maritime for Terminal 5 and the Shell oil rigs?"

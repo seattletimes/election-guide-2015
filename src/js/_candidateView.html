@@ -7,27 +7,31 @@
   <div class="candidate-selected" ng-if="selected">
     <h1>{{selected.name}}</h1>
 
-    <img class="mugshot" ng-src="./assets/mugs/{{selected.img}}">
-
     <div class="election">
       Running for {{selected.raceName}} against
       <a ng-repeat="o in selected.opponents" ui-sref="candidates({ name: o.href })">{{o.name}}</a>
     </div>
 
-    <h2>Vital stats</h2>
+    <div class="bio">
 
-    <ul class="stats">
-      <li> <b>Age:</b> {{selected.age}}
-      <li> <b>Profession:</b> {{selected.profession}}
-      <li> <b>Residence:</b> {{selected.home || selected.residence}}
-      <li> <b>Family:</b> {{selected.family}}
-      <li> <b>Lived here:</b> {{selected.duration}}
-      <li> <b>Education:</b> {{selected.education}}
-      <li> <b>Pets:</b> {{selected.pets}}
-      <li> <b>Political hero:</b> {{selected.heroes}}
-      <li> <b>How they get to work:</b> {{selected.commute}}
-      <li> <b>Favorite spot:</b> {{selected.favoritespot}}
-    </ul>
+      <img class="mugshot" ng-src="./assets/mugs/{{selected.img}}">
+
+      <h2>Vital stats</h2>
+
+      <ul class="stats">
+        <li> <b>Age:</b> {{selected.age}}
+        <li ng-if="selected.profession"> <b>Profession:</b> {{selected.profession}}
+        <li ng-if="selected.residence"> <b>Residence:</b> {{selected.residence}}
+        <li ng-if="selected.family"> <b>Family:</b> {{selected.family}}
+        <li ng-if="selected.duration"> <b>Lived here:</b> {{selected.duration}}
+        <li ng-if="selected.education"> <b>Education:</b> {{selected.education}}
+        <li ng-if="selected.pets"> <b>Pets:</b> {{selected.pets}}
+        <li ng-if="selected.heroes"> <b>Political hero:</b> {{selected.heroes}}
+        <li ng-if="selected.commute"> <b>How they get to work:</b> {{selected.commute}}
+        <li ng-if="selected.favorite_spot"> <b>Favorite spot:</b> {{selected.favorite_spot}}
+      </ul>
+
+    </div>
 
     <h2>Q&amp;A</h2>
 

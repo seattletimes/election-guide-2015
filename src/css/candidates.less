@@ -1,13 +1,18 @@
 @import "flexbox";
 
 .candidate-view {
+  overflow: hidden;
 
   h2 {
     text-transform: uppercase;
   }
 
-  .mugshot {
+  .bio {
     float: right;
+    width: 33%;
+    padding: 16px;
+    margin: 0 6px 16px;
+    background: @df-light-gray;
   }
 
   .stats {
