@@ -20,8 +20,6 @@
 
       <img class="mugshot" ng-if="selected.img" ng-src="./assets/mugs/{{selected.img}}">
 
-      <h2>Vital stats</h2>
-
       <ul class="stats">
         <li> <b>Age:</b> {{selected.age}}
         <li ng-if="selected.profession"> <b>Profession:</b> {{selected.profession}}
@@ -36,8 +34,6 @@
       </ul>
 
     </div>
-
-    <h2>Q&amp;A</h2>
 
     <ul class="q-and-a">
       <li ng-repeat="question in questions[selected.category]"> 
