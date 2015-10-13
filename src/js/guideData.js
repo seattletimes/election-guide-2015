@@ -35,7 +35,7 @@ var questions = {
   king: ["king_boundary", "king_housing", "king_transit"],
   snohomish: ["sno_courthouse", "sno_finances", "sno_transit"],
   port: ["port_cargo", "port_waterfront", "port_traffic", "port_lease"],
-  schoolboard: []
+  schoolBoard: ["school_issue", "school_inequity", "school_strike", "school_testing"]
 };
 
 try {

@@ -1,9 +1,13 @@
 <div class="candidate-view">
-  <label>
-    Select a candidate
-  </label>
-  <select ng-model="selected" ng-options="candidate.name for candidate in candidates">
-  </select>
+  
+  <div class="selection-controls">
+    <label>
+      Currently viewing:
+    </label>
+    <select ng-model="selected" ng-options="candidate.name for candidate in candidates">
+    </select>
+  </div>
+
   <div class="candidate-selected" ng-if="selected">
     <h1>{{selected.name}}</h1>
 
@@ -14,7 +18,7 @@
 
     <div class="bio">
 
-      <img class="mugshot" ng-src="./assets/mugs/{{selected.img}}">
+      <img class="mugshot" ng-if="selected.img" ng-src="./assets/mugs/{{selected.img}}">
 
       <h2>Vital stats</h2>
 

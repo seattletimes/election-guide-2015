@@ -19,24 +19,27 @@
 
 nav.sections {
   display: block;
-  background: @df-dark-gray;
-  color: white;
   font-family: @df-sans;
   font-size: 15px;
 
   a {
-    color: white;
     cursor: pointer;
     display: inline-block;
-    padding: 4px 8px;
-    transition: background .2s linear;
+    padding: 0px 8px;
+    border-radius: 8px;
+    transition: none;
 
     &.active {
       background: darken(@df-blue, 10%);
+      color: white;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
 
     &:hover {
-      background: @df-blue;
+      text-decoration: underline;
     }
   }
 

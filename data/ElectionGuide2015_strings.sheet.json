@@ -52,5 +52,17 @@
   },
   "port_lease": {
     "question": "What is your position on the Port lease with Foss Maritime for Terminal 5 and the Shell oil rigs?"
+  },
+  "school_issue": {
+    "question": "What is the biggest issue facing Seattle Public Schools, and how do you plan to address it?"
+  },
+  "school_inequity": {
+    "question": "The Seattle School Board has been working to address racial inequity and the achievement gap. What specific actions do you think the school board should take to close that gap?"
+  },
+  "school_strike": {
+    "question": "What are your thoughts on the recent Seattle teachers strike and the Seattle School Board’s response to the strike?"
+  },
+  "school_testing": {
+    "question": "What do you think about the Common Core standards and current concerns about standardized testing and passage rates?"
   }
 }
