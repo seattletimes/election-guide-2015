@@ -97,7 +97,9 @@
     "pets": "2 dogs",
     "heroes": "Frederick Douglass",
     "commute": "Bus, carpool or walking",
-    "favorite_spot": "Washington Park Arboretum"
+    "favorite_spot": "Washington Park Arboretum",
+    "link1_text": "Danny Westneat: A socialist proves democracy at work in Seattle",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/a-socialist-proves-democracy-at-work-in-seattle/"
   },
   {
     "position": 3,
@@ -177,7 +179,11 @@
     "pets": "1 fish, “Marshawn”",
     "heroes": "Shirley Chisholm and Bayard Rustin",
     "commute": "Sound Transit Route 522",
-    "favorite_spot": "Maple Leaf Park (my daughters used to call it “Make-Believe Park”)"
+    "favorite_spot": "Maple Leaf Park (my daughters used to call it “Make-Believe Park”)",
+    "link1_text": "Ask Me Anything': Brown and Juarez take questions on Reddit",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/ask-me-anything-excerpts-of-district-5-candidates-session/",
+    "link2_text": "Top primary candidate for Seattle City Council seat pleaded guilty to DUI",
+    "link2_url": "http://www.seattletimes.com/seattle-news/politics/top-primary-candidate-for-city-council-seat-pleaded-guilty-to-dui/"
   },
   {
     "position": 5,
@@ -197,7 +203,9 @@
     "pets": "Three cats, 1 hamster",
     "heroes": "Nelson Mandela",
     "commute": "Bus",
-    "favorite_spot": "Carkeek Park Beach"
+    "favorite_spot": "Carkeek Park Beach",
+    "link1_text": "Ask Me Anything': Brown and Juarez take questions on Reddit",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/ask-me-anything-excerpts-of-district-5-candidates-session/"
   },
   {
     "position": 6,
@@ -296,7 +304,9 @@
     "pets": "None",
     "heroes": "Vaclav Havel, president of the Czech Republic, leader of the Velvet\r\nRevolution",
     "commute": "My Blue Vespa Scooter, Metro Route 3 or 4 or drive my Prius",
-    "favorite_spot": "Walking the Queen Anne Boulevard loop"
+    "favorite_spot": "Walking the Queen Anne Boulevard loop",
+    "link1_text": "‘Ask Me Anything’: Burgess and Grant take questions on Reddit",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/ask-me-anything-excerpts-of-position-8-candidates-session/"
   },
   {
     "position": 8,
@@ -314,7 +324,11 @@
     "education": "Bachelor's in political theory, University of Redlands; nonprofit management certificate, University of Washington; paralegal certificate",
     "heroes": "Larry Gossett and Nick Licata",
     "commute": "Light rail",
-    "favorite_spot": "Jefferson Park"
+    "favorite_spot": "Jefferson Park",
+    "link1_text": "‘Ask Me Anything’: Burgess and Grant take questions on Reddit",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/ask-me-anything-excerpts-of-position-8-candidates-session/",
+    "link2_text": "Seattle council candidate alleges political shakedown by developer",
+    "link2_url": "http://www.seattletimes.com/seattle-news/politics/seattle-council-candidate-alleges-political-shakedown-by-developer/"
   },
   {
     "position": 9,
@@ -334,7 +348,9 @@
     "pets": "Hugo, 8 year-old pug",
     "heroes": "Cesar Chavez/Dolores Huerta, Founders of United Farm Workers ",
     "commute": "Before the campaign, I carpooled or used the West Seattle Water Taxi or Rapid Bus C line from West Seattle to Downtown. Sadly, the demands of the campaign trail have kept me tied to a car of late but I've recently purchased a bike and I love it!",
-    "favorite_spot": "Lincoln Park"
+    "favorite_spot": "Lincoln Park",
+    "link1_text": "Seattle council hopefuls: Welcome newcomers vs. stop runaway growth",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/seattle-city-council-race-2-progressives-differ-on-growth/"
   },
   {
     "position": 9,
@@ -354,6 +370,8 @@
     "pets": "Hamster",
     "heroes": "Bernie Sanders",
     "commute": "Walk, bike, bus, car (varies)",
-    "favorite_spot": "Leschi Beach "
+    "favorite_spot": "Leschi Beach ",
+    "link1_text": "Seattle council hopefuls: Welcome newcomers vs. stop runaway growth",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/seattle-city-council-race-2-progressives-differ-on-growth/"
   }
 ]

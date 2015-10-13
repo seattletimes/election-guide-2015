@@ -40,5 +40,13 @@
         <div class="question">Q. {{question.label}}</div> 
         <div class="answer">A. {{selected[question.q]}} </div>
     </ul>
+
+    <div class="more-stories" ng-if="selected.link1_url">
+      <h3>More Seattle Times coverage</h3>
+      <ul>
+        <li> <a href="selected.link1_url">{{selected.link1_text}}</a>
+        <li ng-if="selected.link2_url"> <a href="selected.link2_url">{{selected.link2_text}}</a>
+      </ul>
+    </div>
   </div>
 </div>

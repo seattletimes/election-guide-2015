@@ -9,6 +9,12 @@
     <p class="cost">
       <b>Cost:</b> {{item.cost}}
     </p>
+
+    <ul class="more-coverage">
+      <li> <a href="item.link1_url">{{item.link1_text}}</a>
+      <li ng-if="item.link2_url"> <a href="item.link2_url">{{item.link2_text}}</a>
+    </ul>
+
     <div class="sides">
       <div class="favoring"> <b>In favor:</b> {{item.favoring}} </div>
       <div class="opposing"> <b>Opposed:</b> {{item.opposing}} </div>

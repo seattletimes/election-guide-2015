@@ -15,13 +15,17 @@
     "pets": "Brodie, an American quarter horse; Peek-A-Boo, a Havanese dog",
     "heroes": "Winston Churchill",
     "commute": "Drive five miles to office in Kirkland.",
-    "favorite_spot": "The Snow Lake Trail and entrance to the Alpine Lakes Wilderness at Snoqualmie Pass."
+    "favorite_spot": "The Snow Lake Trail and entrance to the Alpine Lakes Wilderness at Snoqualmie Pass.",
+    "link1_text": "Three races will set tone of Bellevue council — centrist or conservative?",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/tone-of-bellevue-council-hinges-on-three-races/"
   },
   {
     "position": 3,
     "name": "Don Davidson",
     "img": "Davidson.jpg",
-    "b_arch": "No response"
+    "b_arch": "No response",
+    "link1_text": "Three races will set tone of Bellevue council — centrist or conservative?",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/tone-of-bellevue-council-hinges-on-three-races/"
   },
   {
     "position": 5,
@@ -39,7 +43,9 @@
     "pets": "Border collie Mickey, 2 chickens and 3 ducks",
     "heroes": "Abigail Adams",
     "commute": "By car when not telecommuting. I would like to expand transit service on the Eastside for commuters like me.",
-    "favorite_spot": "Anywhere on a boat on Lake Washington or Lake Sammamish."
+    "favorite_spot": "Anywhere on a boat on Lake Washington or Lake Sammamish.",
+    "link1_text": "Three races will set tone of Bellevue council — centrist or conservative?",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/tone-of-bellevue-council-hinges-on-three-races/"
   },
   {
     "position": 5,
@@ -57,7 +63,9 @@
     "pets": "Noori, our wonderful 12-year-old Labrador retriever.",
     "heroes": "Vigdis Finnbogadottir, president of Iceland (1980-1996) and the world's first democratically elected woman president.",
     "commute": "Trains, planes and automobiles. I work from a home office and travel to meet people who are experts in treating patients and researching medicines.",
-    "favorite_spot": "Bridle Trails State Park"
+    "favorite_spot": "Bridle Trails State Park",
+    "link1_text": "Three races will set tone of Bellevue council — centrist or conservative?",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/tone-of-bellevue-council-hinges-on-three-races/"
   },
   {
     "position": 7,
@@ -75,7 +83,9 @@
     "pets": "One Bernese mountain dog, one cat and two parakeets.",
     "heroes": "U.S. Sen. Margaret Chase Smith.",
     "commute": "Walk down the hall to my office.",
-    "favorite_spot": "On skis at the top of Upper International at Alpental after a fresh snowfall."
+    "favorite_spot": "On skis at the top of Upper International at Alpental after a fresh snowfall.",
+    "link1_text": "Three races will set tone of Bellevue council — centrist or conservative?",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/tone-of-bellevue-council-hinges-on-three-races/"
   },
   {
     "position": 7,
@@ -93,6 +103,8 @@
     "pets": "A cat, Stewie",
     "heroes": "King Edward I of England",
     "commute": "On my Surly Straggler bicycle",
-    "favorite_spot": "Block 133, Row X, of CenturyLink Field during most Sounders matches."
+    "favorite_spot": "Block 133, Row X, of CenturyLink Field during most Sounders matches.",
+    "link1_text": "Three races will set tone of Bellevue council — centrist or conservative?",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/tone-of-bellevue-council-hinges-on-three-races/"
   }
 ]
