@@ -10,7 +10,7 @@ var configFunction = function($state, $router) {
 
   $state.state("intro", {
     url: "/intro",
-    template: require("./_introView.html")
+    templateUrl: "/about.html"
   });
 
   $state.state("candidates", {

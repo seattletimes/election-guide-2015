@@ -2,6 +2,23 @@
   <h2>About this guide</h2>
 
   <p>
-    Welcome to the Seattle Times election guide. Use the tabs at the top to explore this year's races. Curious about which Seattle council district you live in? Check using our <a href="">handy map</a>
+    Welcome to the Seattle Times election guide. Use the tabs at the top to explore this year's races. Curious about which Seattle council district you live in? Check using our <a href="">handy map</a>.
+
+  <%= t.include("partials/_dontMiss.html", {
+    data: [{
+      link: "http://projects.seattletimes.com/2015/city-council-districts/",
+      head: "Seattle's City Council Districts",
+      image: "council-map-tease.jpg"
+    }, {
+      link: "http://www.seattletimes.com/category/election-2015/",
+      head: "Election 2015 coverage"
+    }, {
+      link: "",
+      head: "PLACEHOLDER"
+    }, {
+      link: "",
+      head: "PLACEHOLDER"
+    }]
+  }) %>
 
 </div>

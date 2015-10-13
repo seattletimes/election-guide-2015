@@ -24,8 +24,14 @@
         </ul>
       </nav>
       <section class="view-pane" ui-view></section>
+      
     </main>
     <%= t.include("partials/_navBottom.html") %>
+
+    <!-- don't miss template - long story -->
+    <script type="text/ng-template" id="/about.html">
+      <%= t.include("js/_introView.html") %>
+    </script>
 
     <script>
 <%
