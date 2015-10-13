@@ -27,6 +27,17 @@ nav.sections {
   a {
     color: white;
     cursor: pointer;
+    display: inline-block;
+    padding: 4px 8px;
+    transition: background .2s linear;
+
+    &.active {
+      background: darken(@df-blue, 10%);
+    }
+
+    &:hover {
+      background: @df-blue;
+    }
   }
 
   ul {
@@ -37,12 +48,7 @@ nav.sections {
 
   li {
     display: inline-block;
-    padding: 4px 8px;
     position: relative;
-
-    &:hover {
-      background: @df-blue;
-    }
   }
 }
 
