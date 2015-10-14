@@ -18,9 +18,6 @@ var candidateController = function($scope, $state, $location) {
     $state.go("candidates", { name: $scope.selected ? $scope.selected.href : "" }, { notify: false });
   });
 
-  var scrollElement = document.documentElement.scrollTop ? document.documentElement : document.body;
-  scrollElement.scrollTop = 0;
-
 };
 
 candidateController.$inject = ["$scope", "$state", "$location"];

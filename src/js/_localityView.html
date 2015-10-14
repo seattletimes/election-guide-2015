@@ -1,26 +1,31 @@
 <section class="locale-view">
-  <h2>Candidates by Race</h2>
 
   <nav class="select-locale">
     <a
       ng-repeat="l in locations"
       ng-class="{ selected: l.data == locale }"
+      class="pipes"
       ui-sref="locality({ locale: l.data })"
+      ui-sref-active="active"
     >{{l.label}}</a>
   </nav>
 
-  <div class="race-block" ng-repeat="race in races">
-    <h2>{{race.position}}</h2>
-    <div class="candidate-pair card">
-      <div class="candidate" ng-repeat="candidate in race.candidates">
-        <a ui-sref="candidates({ name: candidate.href })">{{candidate.name}}</a>
-        <ul class="info-block">
-          <li> Profession: {{candidate.profession}}
-          <li> Age: {{candidate.age}}
-        </ul>
-        <a class="read-more" ui-sref="candidates({ name: candidate.href })">Read more</a>
+  <div class="race-container">
+
+    <div class="race-block" ng-repeat="race in races">
+      <h2>{{race.position}}</h2>
+      <div class="candidate-pair card">
+        <div class="candidate" ng-repeat="candidate in race.candidates">
+          <a ui-sref="candidates({ name: candidate.href })">{{candidate.name}}</a>
+          <ul class="info-block">
+            <li> Profession: {{candidate.profession}}
+            <li> Age: {{candidate.age}}
+          </ul>
+          <a class="read-more" ui-sref="candidates({ name: candidate.href })">Read more</a>
+        </div>
       </div>
     </div>
+
   </div>
 
 </section>

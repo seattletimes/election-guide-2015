@@ -9,29 +9,60 @@
   </head>
   <body ng-app="election-guide">
 
-    <%= t.include("partials/_nav.html") %>
     <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
+    <hr class="ad-rule">
+
     <main class="page">
-      <h1>Election Guide 2015</h1>
-      <nav class="sections">
-        <ul>
-          <li> <a ui-sref="intro" ui-sref-active="active">About</a>
-          <li> <a ui-sref="locality" ui-sref-active="active">By Race</a>
-          <li> <a ui-sref="candidates" ui-sref-active="active">All Candidates</a>
-          <li> <a ui-sref="measures" ui-sref-active="active">Ballot Measures</a>
-          <!-- <li> <a ui-sref="issues">On the issues</a> -->
-        </ul>
-      </nav>
+      <section class="black-banner">
+        <a class="share top"></a>
+      </section>
+      <section class="striped-banner">
+        <div class="content">
+          <a href="http://seattletimes.com">
+            <img src="./assets/st-logo.png" class="logo">
+          </a>
+          <h1>Election Guide</h1>
+
+          <p class="chatter">
+            Welcome to the Seattle Times election guide. Explore this year's races and ballot initiatives.
+          </p>
+
+          <nav class="sections">
+            <ul>
+              <li class="pipes"> <a ui-sref="locality" ui-sref-active="active">By Race</a>
+              <li class="pipes"> <a ui-sref="candidates" ui-sref-active="active">All Candidates</a>
+              <li class="pipes"> <a ui-sref="measures" ui-sref-active="active">Ballot Measures</a>
+              <li class="pipes"> <a href="http://projects.seattletimes.com/2015/city-council-districts/">Find your district</a>
+            </ul>
+          </nav>
+
+        </div>
+      </section>
       <section class="view-pane" ui-view></section>
+
+      <%= t.include("partials/_dontMiss.html", {
+        data: [{
+          link: "http://www.seattletimes.com/category/election-2015/",
+          head: "Election 2015 coverage",
+          image: "st-meta-facebook.png"
+        }, {
+          link: "http://projects.seattletimes.com/2015/city-council-districts/",
+          head: "Seattle's City Council Districts",
+          image: "council-map-tease.jpg"
+        }, {
+          link: "http://projects.seattletimes.com/2015/candidate-quiz/",
+          head: "How many of the presidential candidates can you name?",
+          image: "candidate-quiz-tease.jpg"
+        }, {
+          link: "http://www.seattletimes.com/seattle-news/politics/seattles-richest-whitest-sway-campaign-giving-say-reform-backers/",
+          head: "Seattle's richest, whitest areas dominate campaign giving",
+          image: "contribution-map-tease.jpg"
+        }]
+      }) %>
       
     </main>
     <%= t.include("partials/_navBottom.html") %>
-
-    <!-- don't miss template - long story -->
-    <script type="text/ng-template" id="/about.html">
-      <%= t.include("js/_introView.html") %>
-    </script>
 
     <script>
 <%
