@@ -31,14 +31,12 @@
   }
 
   .race-block {
-    .flex(0 0 33%);
-    padding: 8px;
-    .display-flex();
-    .flex-direction(column);
+    .flex(0 1 33%);
+    width: 33%;
     font-family: @df-sans;
 
     @media @tablet {
-      .flex(0 0 50%);
+      .flex(1 1 50%);
     }
 
     @media @mobile {
@@ -58,16 +56,12 @@
     }
 
     .candidate-pair {
-      .flex(1);
-      .display-flex;
+      margin: 8px;
 
       .candidate {
-        .flex(0 0 50%);
+        width: 50%;
+        float: left;
         padding: 10px;
-
-        &:first-child {
-          border-right: 1px solid @df-light-gray;
-        }
       }
 
       .read-more {

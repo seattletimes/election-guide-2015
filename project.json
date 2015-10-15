@@ -5,17 +5,17 @@
       "path": "gregarious-cudweed"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "2015/election-guide"
     }
   },
   "title": "Seattle Times Election Guide 2015",
-  "description": "",
-  "url": "",
+  "description": "Explore this year's races and ballot initiatives with our helpful guide to local elections.",
+  "url": "http://projects.seattletimes.com/2015/election-guide/",
   "slug": "",
   "tags": ["elections-guide"],
-  "image": "",
+  "image": "assets/st-meta-facebook.png",
   "sheets": ["1tOwBkicYSeRw-9_CyqEALNmIZ0UbUeFHfDE-cofg7p0"],
-  "production": false,
+  "production": true,
   "embedded": false
 }

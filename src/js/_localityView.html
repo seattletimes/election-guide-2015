@@ -14,7 +14,7 @@
 
     <div class="race-block" ng-repeat="race in races">
       <h2>{{race.position}}</h2>
-      <div class="candidate-pair card">
+      <div class="candidate-pair">
         <div class="candidate" ng-repeat="candidate in race.candidates">
           <a ui-sref="candidates({ name: candidate.href })">{{candidate.name}}</a>
           <ul class="info-block">
