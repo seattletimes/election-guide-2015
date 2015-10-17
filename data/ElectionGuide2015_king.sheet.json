@@ -25,9 +25,9 @@
     "position": 6,
     "king_boundary": "Supports targeting growth to urban centers. Opposes making changes to maximize developer profits,",
     "king_housing": "Supports zoning and tax incentives for developers to build affordable housing. Leverage public dollars to fund land purchases near transit. Use a wide range of approaches to create affordable housing.",
-    "king_transit": "Supports an ST3 package that creates more frequent and reliable connections on the Eastside. Add high-capacity transit to connect Kirkland and other Eastside destinations. Add parking, bus and walking connections to maximize access to the system.",
-    "age": 47,
-    "profession": "Mayor, City of Bellevue; former director King County jail",
+    "king_transit": "Supports an ST3 package that creates more frequent and reliable connections on the Eastside. Add high-capacity transit to connect Redmond and other Eastside destinations. Add parking, bus and walking connections to maximize access to the system.",
+    "age": 48,
+    "profession": "Mayor, City of Bellevue; former director of King County jail",
     "residence": "Lake Hills, Bellevue",
     "family": "Husband Jim, son Victor",
     "duration": "22 years",
@@ -60,6 +60,9 @@
   {
     "name": "Rufus Orr",
     "position": 4,
-    "king_boundary": "No response."
+    "king_boundary": "No response.",
+    "king_housing": "No response.",
+    "king_transit": "No response.",
+    "age": "No response."
   }
 ]

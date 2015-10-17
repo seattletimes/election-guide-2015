@@ -8,7 +8,7 @@
     </select>
   </div>
 
-  <div class="candidate-selected" ng-if="selected">
+  <div class="candidate-selected" ng-if="selected.age">
     <h2>{{selected.name}}</h2>
 
     <div class="election">
@@ -48,5 +48,9 @@
         <li ng-if="selected.link2_url"> <a href="{{selected.link2_url}}">{{selected.link2_text}}</a>
       </ul>
     </div>
+  </div>
+
+  <div class="no-response" ng-if="!selected.age">
+    Did not respond to questions.
   </div>
 </div>
