@@ -24,22 +24,27 @@
   .race-container {
     .display-flex();
     .flex-wrap(wrap);
+    border-left: 1px solid @df-light-gray;
 
     @media @mobile {
       display: block;
+      border-right: 1px solid @df-light-gray;
     }
   }
 
   .race-block {
     .flex(0 1 33%);
     font-family: @df-sans;
+    border-right: 1px solid @df-light-gray;
 
     @media @tablet {
       .flex(1 1 50%);
     }
 
     @media @mobile {
-      display: inline-block;
+      display: block;
+      clear: both;
+      border-right: none;
     }
 
     h2 {
