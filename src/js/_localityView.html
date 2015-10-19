@@ -18,10 +18,10 @@
         <div class="candidate" ng-repeat="candidate in race.candidates">
           <a ui-sref="candidates({ name: candidate.href })">{{candidate.name}}</a>
           <ul class="info-block">
-            <li> Profession: {{candidate.profession}}
-            <li> Age: {{candidate.age}}
+            <li> Profession: <em>{{candidate.profession}}</em>
+            <li> Age: <em>{{candidate.age}}</em>
           </ul>
-          <a class="read-more" ui-sref="candidates({ name: candidate.href })">Read more</a>
+          <a class="read-more" ui-sref="candidates({ name: candidate.href })">Read more <i class="fa fa-angle-double-right"></i></a>
         </div>
       </div>
     </div>
