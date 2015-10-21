@@ -17,7 +17,9 @@
     "pets": "1 cat",
     "heroes": "Margaret Mead",
     "commute": "Daily bus commuter",
-    "favorite_spot": "Lincoln Park"
+    "favorite_spot": "Lincoln Park",
+    "link1_text": "Several City Council races are clashes between two different shades of blue: 'fiery' vs. 'moderate'",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/city-council-candidates-take-a-bold-versus-cautious-approach-on-policies/"
   },
   {
     "position": 1,
@@ -37,7 +39,9 @@
     "pets": "Beta fish ",
     "heroes": "Ann Richards",
     "commute": "Bus, carpool and occasionally drive by myself",
-    "favorite_spot": "Lincoln Park"
+    "favorite_spot": "Lincoln Park",
+    "link1_text": "Several City Council races are clashes between two different shades of blue: 'fiery' vs. 'moderate'",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/city-council-candidates-take-a-bold-versus-cautious-approach-on-policies/"
   },
   {
     "position": 2,
@@ -99,7 +103,9 @@
     "commute": "Bus, carpool or walking",
     "favorite_spot": "Washington Park Arboretum",
     "link1_text": "Danny Westneat: A socialist proves democracy at work in Seattle",
-    "link1_url": "http://www.seattletimes.com/seattle-news/politics/a-socialist-proves-democracy-at-work-in-seattle/"
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/a-socialist-proves-democracy-at-work-in-seattle/",
+    "link2_text": "Several City Council races are clashes between two different shades of blue: 'fiery' vs. 'moderate'",
+    "link2_url": "http://www.seattletimes.com/seattle-news/politics/city-council-candidates-take-a-bold-versus-cautious-approach-on-policies/"
   },
   {
     "position": 3,
@@ -119,7 +125,9 @@
     "pets": "I love to spoil my grandfurbaby",
     "heroes": "President Obama",
     "commute": "Walk",
-    "favorite_spot": "Lake Washington"
+    "favorite_spot": "Lake Washington",
+    "link1_text": "Several City Council races are clashes between two different shades of blue: 'fiery' vs. 'moderate'",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/city-council-candidates-take-a-bold-versus-cautious-approach-on-policies/"
   },
   {
     "position": 4,
@@ -139,7 +147,9 @@
     "pets": "None",
     "heroes": "Former State Rep. Ruth Fisher from Tacoma",
     "commute": "Transit, Route 71/76/316",
-    "favorite_spot": "Magnuson Park"
+    "favorite_spot": "Magnuson Park",
+    "link1_text": "Several City Council races are clashes between two different shades of blue: 'fiery' vs. 'moderate'",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/city-council-candidates-take-a-bold-versus-cautious-approach-on-policies/"
   },
   {
     "position": 4,
@@ -159,7 +169,9 @@
     "pets": "Two cats",
     "heroes": "Harry Truman",
     "commute": "Bike",
-    "favorite_spot": "On the sidelines of my daughter’s soccer matches, or behind the plate umping a game with Northeast Seattle Little League"
+    "favorite_spot": "On the sidelines of my daughter’s soccer matches, or behind the plate umping a game with Northeast Seattle Little League",
+    "link1_text": "Several City Council races are clashes between two different shades of blue: 'fiery' vs. 'moderate'",
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/city-council-candidates-take-a-bold-versus-cautious-approach-on-policies/"
   },
   {
     "position": 5,
@@ -306,7 +318,9 @@
     "commute": "My Blue Vespa Scooter, Metro Route 3 or 4 or drive my Prius",
     "favorite_spot": "Walking the Queen Anne Boulevard loop",
     "link1_text": " ‘Ask Me Anything’: Burgess and Grant take questions on Reddit",
-    "link1_url": "http://www.seattletimes.com/seattle-news/politics/ask-me-anything-excerpts-of-position-8-candidates-session/"
+    "link1_url": "http://www.seattletimes.com/seattle-news/politics/ask-me-anything-excerpts-of-position-8-candidates-session/",
+    "link2_text": "Several City Council races are clashes between two different shades of blue: 'fiery' vs. 'moderate'",
+    "link2_url": "http://www.seattletimes.com/seattle-news/politics/city-council-candidates-take-a-bold-versus-cautious-approach-on-policies/"
   },
   {
     "position": 8,
